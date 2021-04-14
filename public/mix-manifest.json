@@ -1,0 +1,11 @@
+{
+    "/js/admin/app.js": "/js/admin/app.js",
+    "/AmCharts.js": "/AmCharts.js",
+    "/ApexChart.js": "/ApexChart.js",
+    "/HighCharts.js": "/HighCharts.js",
+    "/vendors~HighCharts.js": "/vendors~HighCharts.js",
+    "/vendors~canvg.js": "/vendors~canvg.js",
+    "/vendors~pdfmake.js": "/vendors~pdfmake.js",
+    "/vendors~xlsx.js": "/vendors~xlsx.js",
+    "/xlsx.js": "/xlsx.js"
+}

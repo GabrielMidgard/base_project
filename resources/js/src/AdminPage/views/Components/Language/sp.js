@@ -1,0 +1,245 @@
+export default {
+    // Ejemplo de archivo local para inglés, entréguelo a su equipo local para que lo traduzca
+    AG_GRID_LOCALE_SP: {
+        // Establecer filtro
+        selectAll: '(Seleccionar todo)',
+        selectAllSearchResults: '(Seleccionar todos los resultados de búsqueda)',
+        searchOoo: 'Buscar...',
+        blanks: '(espacios en blanco)',
+        noMatches: 'No coincide',
+
+        // Filtro de números y filtro de texto
+        filterOoo: 'Filtro...',
+        equals: 'Igual a',
+        notEqual: 'No es igual',
+        empty: 'Elija uno',
+
+        // Filtro de números
+        lessThan: 'Menos que',
+        greaterThan: 'Mayor que',
+        lessThanOrEqual: 'Menor o igual que',
+        greaterThanOrEqual: 'Mayor o igual que',
+        inRange: 'Dentro del rango',
+        inRangeStart: 'a',
+        inRangeEnd: 'desde',
+
+        // Filtro de texto
+        contains: 'Contiene',
+        notContains: 'No contiene',
+        startsWith: 'Empieza por',
+        endsWith: 'Termina con',
+
+        // Filtro de fecha
+        dateFormatOoo: 'dd-mm-yyyy',
+
+        // Condiciones de filtro
+        andCondition: 'Y',
+        orCondition: 'O',
+
+        // Botones de filtro
+        applyFilter: 'Aplicar',
+        resetFilter: 'Restablecer',
+        clearFilter: 'Borrar',
+        cancelFilter: 'Cancelar',
+
+        // Filtrar títulos
+        textFilter: 'Filtro de texto',
+        numberFilter: 'Filtro de número',
+        dateFilter: 'Filtro de fecha',
+        setFilter: 'Establecer filtro',
+
+        // Barra lateral
+        columns: 'Columnas',
+        filters: 'Filtros',
+
+        // panel de herramientas de columnas
+        pivotMode: 'Modo pivote',
+        groups: 'Grupos de filas',
+        rowGroupColumnsEmptyMessage: 'Arrastra aquí para establecer grupos de filas',
+        values: 'Valores',
+        valueColumnsEmptyMessage: 'Arrastra aquí para agregar',
+        pivots: 'Etiquetas de columna',
+        pivotColumnsEmptyMessage: 'Arrastra aquí para establecer etiquetas de columna',
+
+        // Encabezado de la columna del grupo predeterminado
+        group: 'Grupo',
+
+        // Otro
+        loadingOoo: 'Cargando...',
+        noRowsToShow: 'Espere un momento, mientras de carga la información',//No hay filas para mostrar
+        enabled: 'Habilitado',
+
+        // Menu
+        pinColumn: 'Pin Columna',
+        pinLeft: 'Pin a la izquierda',
+        pinRight: 'Pin a la derecha',
+        noPin: 'No Pin',
+        valueAggregation: 'Valor agregado',
+        autosizeThiscolumn: 'Tamaño automático de esta columna',
+        autosizeAllColumns: 'Tamaño automático de todas las columnas',
+        groupBy: 'Agrupar por',
+        ungroupBy: 'Desagrupar por',
+        resetColumns: 'Restablecer columnas',
+        expandAll: 'Expandir todo',
+        collapseAll: 'Cerrar todo',
+        copy: 'Copiar',
+        ctrlC: 'Ctrl + C',
+        copyWithHeaders: 'CCopiar con encabezados',
+        paste: 'Pegar',
+        ctrlV: 'Ctrl + V',
+        export: 'Exportar',
+        csvExport: 'Exportación CSV',
+        excelExport: 'Exportación de Excel (.xlsx)',
+        excelXmlExport: 'Exportación de Excel (.xml)',
+
+        // Barra de estado y agregación del menú empresarial
+        sum: 'Suma',
+        min: 'Min',
+        max: 'Max',
+        none: 'Ninguno',
+        count: 'Cuenta',
+        avg: 'Promedio',
+        filteredRows: 'Filtrado',
+        selectedRows: 'Seleccionado',
+        totalRows: 'Total de filas',
+        totalAndFilteredRows: 'Filas',
+        more: 'Más',
+        to: 'a',
+        of: 'de',
+        page: 'Página',
+        nextPage: 'Página siguiente',
+        lastPage: 'Última página',
+        firstPage: 'Primera página',
+        previousPage: 'Página anterior',
+
+        // Menú de empresa (gráficos)
+        pivotChartAndPivotMode: 'Gráfico dinámico y modo dinámico',
+        pivotChart: 'Gráfico dinámico',
+        chartRange: 'Rango de gráfico',
+
+        columnChart: 'Columna',
+        groupedColumn: 'Agrupado',
+        stackedColumn: 'Apilado',
+        normalizedColumn: '100% apilado',
+
+        barChart: 'Bar',
+        groupedBar: 'Grouped',
+        stackedBar: 'Stacked',
+        normalizedBar: '100% Stacked',
+
+        pieChart: 'Pie',
+        pie: 'Pie',
+        doughnut: 'Donut',
+
+        line: 'Línea',
+
+        xyChart: 'X Y (Dispersión)',
+        scatter: 'Dispersión',
+        bubble: 'Burbuja',
+
+        areaChart: 'Área',
+        area: 'Área',
+        stackedArea: 'Apilado',
+        normalizedArea: '100% Apilada',
+
+        histogramChart: 'Histograma',
+
+        // Gráficos
+        pivotChartTitle: 'Gráfico dinámico',
+        rangeChartTitle: 'Range ChartGráfico de rango',
+        settings: 'Configuración',
+        data: 'Datos',
+        format: 'Formato',
+        categories: 'Categorías',
+        defaultCategory: '(Ninguno)',
+        series: 'Serie',
+        xyValues: 'Valores X Y',
+        paired: 'Modo emparejado',
+        axis: 'Eje',
+        navigator: 'Navegador',
+        color: 'Color',
+        thickness: 'Espesor',
+        xType: 'Tipo X',
+        automatic: 'Automático',
+        category: 'Categoría',
+        number: 'Número',
+        time: 'Tiempo',
+        xRotation: 'Rotación X',
+        yRotation: 'Rotación Y',
+        ticks: 'Ticks',
+        width: 'Ancho',
+        height: 'Altura',
+
+        length: 'Longitud',
+        padding: 'Relleno',
+        spacing: 'Espaciado',
+        chart: 'Gráfico',
+        title: 'Título',
+        titlePlaceholder: 'Título del gráfico: haga doble clic para editar',
+        background: 'Fondo',
+        font: 'Fuente',
+        top: 'Parte superior',
+        right: 'Derecha',
+        bottom: 'Fondo',
+        left: 'Izquierda',
+        labels: 'Etiquetas',
+        size: 'Talla',
+        minSize: 'Talla minima',
+        maxSize: 'Talla máxima',
+        legend: 'Leyenda',
+        position: 'Posición',
+        markerSize: 'Tamaño del marcador',
+        markerStroke: 'Trazo de marcador',
+        markerPadding: 'Relleno de marcador',
+        itemSpacing: 'Espaciado de elementos',
+        itemPaddingX: 'Relleno del artículo X',
+        itemPaddingY: 'Relleno del artículo Y',
+
+        layoutHorizontalSpacing: 'Espaciado horizontal',
+        layoutVerticalSpacing: 'Espaciado vertical',
+        strokeWidth: 'Anchura del trazo',
+        offset: 'Compensar',
+        offsets: 'Compensaciones',
+        tooltips: 'Información sobre herramientas',
+        callout: 'Llamada',
+        markers: 'Marcadores',
+        shadow: 'Sombra',
+        blur: 'Difuminar',
+        xOffset: 'Compensar X',
+        yOffset: 'Compensar Y',
+        lineWidth: 'Ancho de línea',
+        normal: 'Normal',
+        bold: 'Negrita',
+        italic: 'cursiva',
+        boldItalic: 'Negrita cursiva',
+
+        predefined: 'Predefinido',
+        fillOpacity: 'Rellenar opacidad',
+        strokeOpacity: 'Opacidad de línea',
+        histogramBinCount: 'Recuento de contenedores',
+        columnGroup: 'Columna',
+        barGroup: 'Bar',
+        pieGroup: 'Pie',
+        lineGroup: 'Línea',
+        scatterGroup: 'X Y (Dispersión)',
+        areaGroup: 'Área',
+        histogramGroup: 'Histograma',
+        groupedColumnTooltip: 'Agrupado',
+        stackedColumnTooltip: 'apilado',
+        normalizedColumnTooltip: '100% apilado',
+        groupedBarTooltip: 'Agrupado',
+        stackedBarTooltip: 'Apilado',
+        normalizedBarTooltip: '100% apilado',
+        pieTooltip: 'Pie',
+        doughnutTooltip: 'Donut',
+        lineTooltip: 'Línea',
+        groupedAreaTooltip: 'Área',
+        stackedAreaTooltip: 'Apilado',
+        normalizedAreaTooltip: '100% apilado',
+        scatterTooltip: 'Dispersión',
+        bubbleTooltip: 'Burbuja',
+        histogramTooltip: 'Histograma',
+        noDataToChart: 'No hay datos disponibles para graficar.',
+        pivotChartRequiresPivotMode: 'El gráfico dinámico requiere que el modo dinámico esté habilitado.'
+    }
+} 

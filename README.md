@@ -1,5 +1,5 @@
 # base_project
-Este proyecto es una prueba para la empresa ''.
+Este proyecto es una prueba para la empresa 'Garantia'.
 # Instalar Composer
 
 [![build](https://github.com/composer/windows-setup/workflows/build/badge.svg)](https://github.com/composer/windows-setup/actions)
@@ -36,3 +36,7 @@ npm run watch
 
 ## Ejecutar servidor
 php artisan serv
+
+
+y abrir la siguente liga
+http://127.0.0.1:8000/admin

@@ -25,7 +25,9 @@ npm i vue
 php artisan key:generate
 php artisan passport:install
 
+
 ## Ejecutar base de datos 
+crear una base de datos con el nombre base_project
 php artisan migrate:fresh
 php artisan db:seed
 
